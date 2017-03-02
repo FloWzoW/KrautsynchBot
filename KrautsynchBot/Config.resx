@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Bot_Username" xml:space="preserve">
+    <value>KrautsynchBot</value>
+    <comment>Username des Bots</comment>
+  </data>
+  <data name="ChatWrapper_ChatMessage_CheckInterval" xml:space="preserve">
+    <value>20</value>
+    <comment>Intervall für den Timer in dem nach neuen Chat messages gesucht wird (in ms)</comment>
+  </data>
+  <data name="ChatWrapper_ChatMessage_Contains_ClassName" xml:space="preserve">
+    <value>chat-msg-</value>
+    <comment>Css-Klasse für eine ChatMessage im div-Container einer Message</comment>
+  </data>
+  <data name="ChatWrapper_ChatMessage_Image_Embeded_ClassName" xml:space="preserve">
+    <value>image-embed</value>
+    <comment>Das steht im Class-Name für eingebettete Bilder</comment>
+  </data>
+  <data name="ChatWrapper_ChatMessage_Image_Embeded_Rotor_ClassName" xml:space="preserve">
+    <value>rotor</value>
+    <comment>Das steht im Class-Name für Bilder im Rotor</comment>
+  </data>
+  <data name="ChatWrapper_ChatMessage_SendInterval" xml:space="preserve">
+    <value>200</value>
+    <comment>Intervall indem Nachrichten vom Bot hintereinander gesendet werden (in ms)</comment>
+  </data>
+  <data name="ChatWrapper_ChatMessage_Timestamp_ClassName" xml:space="preserve">
+    <value>timestamp</value>
+    <comment>Class-Name für das Timestamp Span-Element</comment>
+  </data>
+  <data name="ChatWrapper_ChatMessage_Username_ClassName" xml:space="preserve">
+    <value>username</value>
+    <comment>Class-Name für das Username Strong-Element</comment>
+  </data>
+  <data name="ChatWrapper_DocumentHash_NickHover_Class" xml:space="preserve">
+    <value> nick-hover</value>
+    <comment>Dieser String wird beim Hashen der Chatliste rausgefiltert</comment>
+  </data>
+  <data name="Plugin_Afk_Message" xml:space="preserve">
+    <value>/me [username] ist seit [zeit] weg vom Schlüsselbrett</value>
+    <comment>Nachricht wenn nach afk-Zeit gefragt wird</comment>
+  </data>
+  <data name="Plugin_Afk_NotAfkMessage" xml:space="preserve">
+    <value>/me [username] ist doch garnicht afk /allesfalsch</value>
+    <comment>Nachricht wenn nach afk-Zeit für einen User gefragt wird der nicht afk ist</comment>
+  </data>
+  <data name="Plugin_Frage_Messages" xml:space="preserve">
+    <value>Ja;ist sich da sicher;natürlich;jawohl;selbstverständlich;gewiss;freilich;diesmal ja;er stimmt zu;er hat das mit [username] besprochen und stimmt zu /:3;Nein;Niemals /finger;du willst es doch selber nicht;auf keinen Fall;negativ;NEIN!;NIEMALS! /allesfalsch;keineswegs;unter keinen Umständen;ist sich mit [username] darüber einig geworden: Nein. /finger;den Fehler hat [username] schon gemacht, nein.;Vielleicht /ka;nur wenn es dem Führer dient /tadolf;er ist sich nicht sicher;frag lieber [username] /ka;das ist wahr;das ist falsch</value>
+    <comment>Nachrichten für die Entscheidung</comment>
+  </data>
+  <data name="Plugin_Knuddelz_0" xml:space="preserve">
+    <value>/me Leider wurde [username] heute noch nicht geknuddelt /kdf</value>
+    <comment>Nachricht wenn der User noch keine User hat</comment>
+  </data>
+  <data name="Plugin_Knuddelz_Trigger" xml:space="preserve">
+    <value>knuddel</value>
+    <comment>Bei dieser Zeichenfolge triggert der Knuddelz-Counter</comment>
+  </data>
+  <data name="Plugin_Knuddelz_ü1" xml:space="preserve">
+    <value>/me [username] wurde heute schon [knuddelzlevel] mal geknuddelt, zuletzt von [knuddelzvon] /:3</value>
+    <comment>Nachricht wenn der User 1 oder mehr Knuddelz hat</comment>
+  </data>
+  <data name="CommandHandler_Message_StartTag" xml:space="preserve">
+    <value>!</value>
+    <comment>Mit diesem Tag reagiert der Bot auf Nachrichten</comment>
+  </data>
+  <data name="Plugin_Mett_100" xml:space="preserve">
+    <value>/me /wackel AUFGEPASST! [username] IST 100%IG METT! /ohgott /angst</value>
+    <comment>Chat-Message für Mett Level 100</comment>
+  </data>
+  <data name="Plugin_Mett_StartBetween" xml:space="preserve">
+    <value>20-30</value>
+    <comment>In welchem Bereich startet der Mett-Level eines Users</comment>
+  </data>
+  <data name="Plugin_Mett_Trigger" xml:space="preserve">
+    <value>mett;pissdich;kloppe;zyklon;zorn;mopc;reee;gas;skibbe;weiter;säge</value>
+    <comment>Array von Wörtern die das Mett-Level erhöhen</comment>
+  </data>
+  <data name="Plugin_Mett_unter80" xml:space="preserve">
+    <value>/me [username] ist zu [mettlevel]% Mett</value>
+    <comment>Chat-Message für normales Mett Level unter 80</comment>
+  </data>
+  <data name="Plugin_Mett_über80" xml:space="preserve">
+    <value>/me [username] ist zu *[mettlevel]%* Mett /klach</value>
+    <comment>Chat-Message für Mett Level über 80</comment>
+  </data>
+  <data name="Plugin_Mett_über90" xml:space="preserve">
+    <value>/me [username] ist zu /wackel *[mettlevel]%* Mett /angst</value>
+    <comment>Chat-Message für Mett Level über 90</comment>
+  </data>
+  <data name="CommandHandler_Moderatoren" xml:space="preserve">
+    <value>krautster;armbernd;Freilaurer;melli17;reflahey;berndboy2;dasistkeinname;Lolibunny;RenDom;kohlio;Xaekai</value>
+    <comment>Array der Moderatoren</comment>
+  </data>
+  <data name="CommandHandler_Mute_IgnoreMessage" xml:space="preserve">
+    <value>/me ignoriert ab sofort [username] /soeinfach</value>
+    <comment>Nachricht wenn ein user gemuted wird</comment>
+  </data>
+  <data name="CommandHandler_Mute_ListMessage" xml:space="preserve">
+    <value>/me ignoriert im Moment [usernames]</value>
+    <comment>Nachricht für Listet User die ignoriert werden</comment>
+  </data>
+  <data name="CommandHandler_Mute_UnignoreMessage" xml:space="preserve">
+    <value>/me ignoriert [username] ab sofort nicht mehr.</value>
+    <comment>Nachricht wenn ein user entmuted wird</comment>
+  </data>
+  <data name="Plugin_Saufen_Emotes" xml:space="preserve">
+    <value>/lahey;/stoss;/saufi;/saufen;/wein;/lüning;/stollschluck;/schluck;/tschluck;/tadler;/schunkel;/bebe;/kirk</value>
+    <comment>Emotes die zum saufen dienen</comment>
+  </data>
+  <data name="Plugin_Saufen_Message" xml:space="preserve">
+    <value>/me sagt [username] muss saufen! [emote]</value>
+    <comment>Nachricht für den Sauf-Gewinner</comment>
+  </data>
+  <data name="Plugin_Saufen_Message_alle" xml:space="preserve">
+    <value>/me hat [username] aus allen zum saufen gewählt! [emote]</value>
+    <comment>Nachricht für den Sauf-Gewinner aus allen aktiven Usern</comment>
+  </data>
+  <data name="Plugin_Saufen_Message_jeder" xml:space="preserve">
+    <value>/me ist ebenfalls der Meinung jeder sollte saufen! [emote] Jetzt!</value>
+    <comment>Nachricht für den Sauf-Gewinnerwenn jeder saufen soll</comment>
+  </data>
+  <data name="Plugin_Soli_Messages" xml:space="preserve">
+    <value>/2opc;/opc;/finger</value>
+    <comment>Messages für !Soli</comment>
+  </data>
+  <data name="Plugin_Würfel_Message" xml:space="preserve">
+    <value>/me hat für [username] eine [zahl] gewürfelt!</value>
+    <comment>Nachricht für einen Würfelwurf der nicht 1 oder 6 ist</comment>
+  </data>
+  <data name="Plugin_Würfel_Message_1" xml:space="preserve">
+    <value>/me hat für [username] eine [zahl] gewürfelt! /feelsbad</value>
+    <comment>Nachricht für einen Würfelwurf der 1 ist</comment>
+  </data>
+  <data name="Plugin_Würfel_Message_6" xml:space="preserve">
+    <value>/me hat für [username] eine [zahl] gewürfelt! /nice</value>
+    <comment>Nachricht für einen Würfelwurf der 6 ist</comment>
+  </data>
+  <data name="ElementID_Messagebuffer" xml:space="preserve">
+    <value>messagebuffer</value>
+    <comment>Element für die Chat Nachrichten</comment>
+  </data>
+  <data name="ElementID_Userlist" xml:space="preserve">
+    <value>userlist</value>
+    <comment>Element für die Usernames</comment>
+  </data>
+  <data name="PollHandler_ClosePoll_Button_Text" xml:space="preserve">
+    <value>End Poll</value>
+    <comment>Dieser Text steht im Button der ein Poll schließt. Groß und Kleinschreibung beachten!</comment>
+  </data>
+  <data name="PollHandler_Error_NoActivePollFound" xml:space="preserve">
+    <value>/me /störung Es ist auf einmal kein aktiver Poll mehr vorhanden, hat wohl ein Mod vorzeitig beendet. Kann das Ergebnis so nicht auslesen /ka</value>
+    <comment>Wenn es keinen aktiven Poll mehr gibt, wird diese Fehlermeldung ausgegeben.</comment>
+  </data>
+  <data name="PollHandler_Option_Class" xml:space="preserve">
+    <value>option</value>
+    <comment>Diese Klasse verwendet eine Option zum voten</comment>
+  </data>
+  <data name="PollHandler_Pollbox_ID" xml:space="preserve">
+    <value>pollwrap</value>
+    <comment>In diesem Div stecken die Polls</comment>
+  </data>
+  <data name="PollHandler_Poll_Active_Class" xml:space="preserve">
+    <value>well active</value>
+    <comment>Diese Klasse hat das Div eines Polls der aktiv ist</comment>
+  </data>
+  <data name="PollHandler_Poll_NotActive_Class" xml:space="preserve">
+    <value>well muted</value>
+    <comment>Diese Klasse hat das Div eines Polls der nicht aktiv ist</comment>
+  </data>
+  <data name="TextboxID_Chatbox" xml:space="preserve">
+    <value>chatline</value>
+    <comment>Name des Chatline-Elementes</comment>
+  </data>
+  <data name="TextboxID_Login_Password" xml:space="preserve">
+    <value>password</value>
+    <comment>Textbox für das Passwort auf der Loginpage</comment>
+  </data>
+  <data name="TextboxID_Login_Username" xml:space="preserve">
+    <value>username</value>
+    <comment>Textbox für den Username auf der Loginpage</comment>
+  </data>
+  <data name="UserlistWrapper_Userlist_AfkUser_Class" xml:space="preserve">
+    <value>userlist_afk</value>
+    <comment>Klasse für einen Username in der Userlist der AFK ist</comment>
+  </data>
+  <data name="UserlistWrapper_Userlist_Item_Class" xml:space="preserve">
+    <value>userlist_item</value>
+    <comment>Hauptklasse für einen Username in der Userlist</comment>
+  </data>
+  <data name="CommandHandler_Help_Messages" xml:space="preserve">
+    <value>help;hilfe</value>
+    <comment>Diese Befehle lösen den Hilfebefehl aus</comment>
+  </data>
+  <data name="CommandHandler_Plugin_Disabled_Arguments" xml:space="preserve">
+    <value>false;aus</value>
+    <comment>Diese Argumente schalten ein Plugin aus</comment>
+  </data>
+  <data name="CommandHandler_Plugin_Enabled_Arguments" xml:space="preserve">
+    <value>true;an;ein</value>
+    <comment>Diese Argumente schalten ein Plugin an</comment>
+  </data>
+  <data name="CommandHandler_Plugin_Disabled_Message" xml:space="preserve">
+    <value>/me Der [command]-Command ist nun ausgeschaltet</value>
+    <comment>Nachricht wenn ein Command ausgeschaltet wird</comment>
+  </data>
+  <data name="CommandHandler_Plugin_Enabled_Message" xml:space="preserve">
+    <value>/me Der [command]-Command ist nun eingeschaltet</value>
+    <comment>Nachricht wenn ein Command eingeschaltet wird</comment>
+  </data>
+  <data name="Plugin_Gas_Trigger" xml:space="preserve">
+    <value>gas</value>
+    <comment>Bei diesen Stichworten triggert der Gas-Counter</comment>
+  </data>
+  <data name="Plugin_Base_All_Argument" xml:space="preserve">
+    <value>alle;jeder</value>
+    <comment>Stichwörter die einen Tick auf jeden User auslösen</comment>
+  </data>
+  <data name="Plugin_Gas_0" xml:space="preserve">
+    <value>/me [username] hat heute noch kein Gas geschnüffelt.</value>
+    <comment>Nachricht wenn noch kein Gas geschnüffelt</comment>
+  </data>
+  <data name="Plugin_Gas_ü1" xml:space="preserve">
+    <value>/me [username] wurde heute schon [anzahl] mal vergast! /gas</value>
+    <comment>Nachricht wenn schon Gas geschnüffelt</comment>
+  </data>
+  <data name="Plugin_Votekick_10secondsMessage" xml:space="preserve">
+    <value>/me /wackel *Nur noch 10 Sekunden* zur Votekick-Abstimmung gegen *[username]*!  </value>
+    <comment>15 Sekunden Message vom Votekick</comment>
+  </data>
+  <data name="Plugin_Votekick_30secondsMessage" xml:space="preserve">
+    <value>/me Ihr habt noch 30 Sekunden zum Voten ob [username] abgeschoben werden soll</value>
+    <comment>30 Sekunden Message vom Votekick</comment>
+  </data>
+  <data name="Plugin_Votekick_KickMessage_VoteFailed" xml:space="preserve">
+    <value>/me es gab keine Mehrheit [username] abzuschieben. /2wat</value>
+    <comment>Nachricht bei erfolglosem Kick</comment>
+  </data>
+  <data name="Plugin_Votekick_KickMessage_VoteSuccess" xml:space="preserve">
+    <value>/me /4marsch /5marsch *Kickvote erfolgreich! [username] wird abgeschoben[mutemessage]! * /6marsch /7marsch</value>
+    <comment>Nachricht bei erfolgreichem Kick</comment>
+  </data>
+  <data name="Plugin_Votekick_NotAgain_Message" xml:space="preserve">
+    <value>/me Kickvote ist für dich erstmal nicht mehr verfügbar [username]. /bum</value>
+    <comment>Diese Nachricht gibt der Votekick wennd er User noch im Timeout steckt</comment>
+  </data>
+  <data name="Plugin_Votekick_UserVote_Timeout" xml:space="preserve">
+    <value>60</value>
+    <comment>Zeitspanne in welcher ein user Kickvote machen kann (in Minuten). </comment>
+  </data>
+  <data name="Plugin_Votekick_QuestionMessage" xml:space="preserve">
+    <value>Votekick - Soll [username] abgeschoben werden?</value>
+    <comment>Question-Message</comment>
+  </data>
+  <data name="Plugin_Votekick_KickOption_No" xml:space="preserve">
+    <value>F2 - [username] muss bleiben!</value>
+    <comment>Text für die Ablehnungs-Option</comment>
+  </data>
+  <data name="Plugin_Votekick_KickOption_Yes" xml:space="preserve">
+    <value>F1 - [username] muss abgeschoben werden!</value>
+    <comment>Text für die Zustimmungs-Option</comment>
+  </data>
+  <data name="Plugin_Votekick_KickOption_Yes_KickCommand" xml:space="preserve">
+    <value>/kick [username] Votekick passed, AB INS KZ MIT DIR DU JUDE! </value>
+    <comment>Command der abgesetzt wird wenn Kick erfolgreich war</comment>
+  </data>
+  <data name="Plugin_Votekick_ModKickMessage" xml:space="preserve">
+    <value>/me Moderatoren (und ich) können nicht gekickt werden /soeinfach</value>
+    <comment>Nachricht wenn ein Mod gekickt werden soll</comment>
+  </data>
+  <data name="Plugin_Promille_Message_0" xml:space="preserve">
+    <value>/me [username] scheint nüchtern zu sein /3dwat</value>
+    <comment>Diese Nachricht gibt bescheid über den Alkoholpegel eines Users wenn er 0 Promille hat</comment>
+  </data>
+  <data name="Plugin_Promille_Message_ü01" xml:space="preserve">
+    <value>/me [username] hat einen Alkoholpegel von [promille]‰ [saufemote]</value>
+    <comment>Diese Nachricht gibt bescheid über den Alkoholpegel eines Users</comment>
+  </data>
+  <data name="Plugin_Promille_TriggerWords" xml:space="preserve">
+    <value>prost;trinken</value>
+    <comment>Stichwörter die den Promillegehalt erhöhen (alles klein schreiben bitte)</comment>
+  </data>
+  <data name="Plugin_Promille_Time" xml:space="preserve">
+    <value>5</value>
+    <comment>Zeitraum in dem der Promillepegel steigt in Minuten</comment>
+  </data>
+  <data name="Tanzis" xml:space="preserve">
+    <value>/arier;/bardy;/bateman;/bear;/drache;/ecchi;/eistanz;/frösch;/gir;/herzkadsi;/hitlör;/miku;/mjtanz;/mäggüs;/psprölö;/pädö;/sprölö;/ssprölö;/tspurdo;/tanzi;/tswag</value>
+    <comment>Tanzi Emotes, nur zum speichern hier, vlt brauch ich die nochmal</comment>
+  </data>
+  <data name="Plugin_Lecken_Message" xml:space="preserve">
+    <value>/me [username] wurde heute schon [anzahl] mal geleckt, zuletzt von [zuletztvon] /frosch</value>
+    <comment>Nachricht die zeigt wie oft ein User geleckt wurde</comment>
+  </data>
+  <data name="Plugin_Lecken_Trigger" xml:space="preserve">
+    <value>leckt;schleckt;schlabbert;züngelt;kostet;lecki;lecken</value>
+    <comment>Diese Wörter triggern den Lecker</comment>
+  </data>
+  <data name="Plugin_Lecken_Message_Count0" xml:space="preserve">
+    <value>/me [username] wurde heute noch nicht abgeleckt. </value>
+    <comment>Nachricht die erscheint wenn noch keine Leckz für den user vorhanden sind</comment>
+  </data>
+  <data name="Plugin_Poll_10secondsMessage" xml:space="preserve">
+    <value>/me Der Poll von [username] läuft noch 30 Sekunden</value>
+    <comment>30 Sekunden Message für den Userpoll</comment>
+  </data>
+  <data name="Plugin_Poll_30secondsMessage" xml:space="preserve">
+    <value>/me *Achtung:* Der Poll von [username] läuft nur noch 10 Sekunden!</value>
+    <comment>10 Sekunden Message für den Userpoll</comment>
+  </data>
+  <data name="Plugin_Poll_PollsPerDay" xml:space="preserve">
+    <value>2</value>
+    <comment>Anzahl an Polls die ein user pro Tag öffnen kann</comment>
+  </data>
+  <data name="Plugin_Poll_NoMoreVotesMessage" xml:space="preserve">
+    <value>/me du hast dein Poll-Kontingent für heute bereits verbraucht [username] /feelseh</value>
+    <comment>Nachricht für den User wenn er keine Polls mehr erstellen darf</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_10secondsMessage" xml:space="preserve">
+    <value>/me /wackel *Nur noch 10 Sekunden* zur Abstimmung für die Löschung der Videos von *[username]*!</value>
+    <comment>10 Sekunden Message für den Aufräumen-Command</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_30secondsMessage" xml:space="preserve">
+    <value>/me Ihr habt noch 30 Sekunden zum Voten ob die Videos von [username] aus der Playlist entfernt werden sollen</value>
+    <comment>30 Sekunden Message für den Aufräumen-Command</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_ModMessage" xml:space="preserve">
+    <value>/me Dieser Befehl funktioniert nicht gegen Mods.</value>
+    <comment>Wird abgesendet wenn der User den Befehl gegen Mods absenden möchte</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_NotAgain_Message" xml:space="preserve">
+    <value>/me Tut mir leid [username], das funktioniert pro User nur einmal am Tag /kdf</value>
+    <comment>Wird abgesendet wenn der User den Befehl nicht mehr starten darf</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_Option_No" xml:space="preserve">
+    <value>F2 - [username]'s Videos besitzen überdurchschnittliche Qualität</value>
+    <comment>Text für die Ablehnungs-Option</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_Option_Yes" xml:space="preserve">
+    <value>F1 - [username]'s Videos will niemand sehen!</value>
+    <comment>Text für die Zustimmungs-Option</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_QuestionMessage" xml:space="preserve">
+    <value>Aufräumen - Sollen alle Videos von [username] aus der Playlist entfernt werden?</value>
+    <comment>Frage für den Aufräumen-Command</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_VoteFailed" xml:space="preserve">
+    <value>/me Es kam leider keine 2/3 Mehrheit für die Löschung zusammen /ka</value>
+    <comment>Nachricht bei erfolglosem Poll</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_VoteSuccess" xml:space="preserve">
+    <value>/me Poll erfolgreich, die Videos von [username] werden jetzt entfernt /soeinfach</value>
+    <comment>Nachricht bei erfolgreichem Poll</comment>
+  </data>
+  <data name="Plugin_Aufraeumen_VoteSuccess_Command" xml:space="preserve">
+    <value>/clean [username]</value>
+    <comment>Command welcher die Videos des Users löscht</comment>
+  </data>
+  <data name="Plugin_Armbernd_Messages" xml:space="preserve">
+    <value>/tarm;/armmoderiert;/armbernd;/sarm;/fritt</value>
+    <comment>Emotes für den armbernd-Command</comment>
+  </data>
+  <data name="Plugin_Frage_Aussage" xml:space="preserve">
+    <value>sagt;meint;hat entschieden:;ist sich sicher:</value>
+    <comment>Wörter mit denen eine Antwort beginnen kann</comment>
+  </data>
+  <data name="Plugin_Votekick_MuteTimeInMin" xml:space="preserve">
+    <value>2</value>
+    <comment>Zeit für die ein User vom Votekick gebannt wird. 0 verhindert bann und kickt nur</comment>
+  </data>
+  <data name="Plugin_Votekick_KickOption_Yes_muteCommand" xml:space="preserve">
+    <value>/mute [username]</value>
+    <comment>Command um einen User zu muten</comment>
+  </data>
+  <data name="Plugin_Votekick_KickOption_Yes_unmuteCommand" xml:space="preserve">
+    <value>/unmute [username]</value>
+    <comment>Command um einen User zu unmuten</comment>
+  </data>
+  <data name="Plugin_Votekick_KickOption_Yes_unmuteMessage" xml:space="preserve">
+    <value>/me [username] wurde wieder unmuted</value>
+    <comment>Nachricht wenn ein User wieder unmuted wird</comment>
+  </data>
+  <data name="Plugin_Lauerstein_Messages" xml:space="preserve">
+    <value>/lauerstein;/lstein;/prinzessin;/jude;/homo;/lspepe</value>
+    <comment>Lauerstein-Emotes</comment>
+  </data>
+  <data name="Plugin_Pizza_Trigger_Message" xml:space="preserve">
+    <value>/me /wackel *Achtung* liebe/r [username], deine Pizza ist fertig! /:3</value>
+    <comment>Message die geschrieben wird wenn die Pizza fertig ist</comment>
+  </data>
+  <data name="Plugin_Molnar_Emotes" xml:space="preserve">
+    <value>/dada;/dudu;/faded;/2faded;/molstoss;/dädä;/bäbä;/tdädä;/bada;/badi;/baba;/bebe;/bapa;/lulu;/uaah;/düdü;/dadi;/molnom;/molnar</value>
+    <comment>Molnar Emotes</comment>
+  </data>
+  <data name="Plugin_Twitch_Emotes" xml:space="preserve">
+    <value>354;99263;99265;110785;3792;51838;50;74;32035;22639;115234;83536;30;86;1904;114738;62835;69;243;115233;4057;97855;27602;97856;90129;84608;58127;123171;112288;49106;116625;973;33;111700;73;46248;58135;114835;102242;62834;110735;110734;20;4339;360;42;65;117701;244;48;98562;32;112291;116942;3632;20225;68;30259;357;46881;112290;/mote/169;/mote/114836;/mote/15s;/mote/26s;/mote/9803;/mote/25s;/mote/74510;/mote/55338;/mote/70433;/mote/81997;1902;40;1901;41;30134;35063;81636;68856;28;29;110009;45;90075;44;34875;58765;81103;91;66;100590;16;81248;81273;81249;22998;3668;76171;112289;3412;27509;81243;81244;111300;4240;36;102556;92;88;117484;38586;28328;115075;47;58136;114870;1900;22;245;62833;4338;107030;64138;123329;123330;123331;52492;87;89945;52;1906;355;46;90076;17;114876;118772;34;112292;94039;94038;94040;1899;18;111351;7427;1898;111119;114846;120232;38436;62836;123669;49;114856;111792;81274;106294;106293;1896;114847;28087;4337</value>
+    <comment>Twitch Emote Liste</comment>
+  </data>
+  <data name="Plugin_Twitch_Url" xml:space="preserve">
+    <value>https://static-cdn.jtvnw.net/emoticons/v1/[emoteNo]/1.0</value>
+    <comment>Twitch Emote Url, [emoteNo] bitte ersetzen</comment>
+  </data>
+  <data name="Plugin_Roulette_Begrüßung" xml:space="preserve">
+    <value>[username] möchte ein Spielchen Roulette starten! Teilnehmen mit "dabei". Benötigt mindestens [minplayercount] Spieler zum spielen!</value>
+    <comment>Begrüßung</comment>
+  </data>
+  <data name="Plugin_Roulette_MinPlayerCount" xml:space="preserve">
+    <value>2</value>
+    <comment>Mindestanzahl an Spielern</comment>
+  </data>
+  <data name="Plugin_Roulette_NoPlayer" xml:space="preserve">
+    <value>/me es kamen nicht genug Spieler für Roulette zusammen</value>
+    <comment>Nicht genügend Spieler</comment>
+  </data>
+  <data name="Plugin_Roulette_NotAgain_Message" xml:space="preserve">
+    <value>Tut mir Leid [username], das funktioniert nur einmal alle [timeout] Minuten pro User</value>
+    <comment>"Nicht schon wieder"-Nachricht</comment>
+  </data>
+  <data name="Plugin_Roulette_Register_Command" xml:space="preserve">
+    <value>dabei</value>
+    <comment>Command zum anmelden</comment>
+  </data>
+  <data name="Plugin_Roulette_UserTimeout" xml:space="preserve">
+    <value>60</value>
+    <comment>Zeitspanne in welcher ein user Roulette machen kann (in Minuten). </comment>
+  </data>
+  <data name="Plugin_Roulette_YoureIn_Message" xml:space="preserve">
+    <value>[username] ist dabei! /kongo</value>
+    <comment>Nachricht "du bist dabei!"</comment>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Plugin_Roulette_Hit_Message" xml:space="preserve">
+    <value>/kick [username] BOOM HEADSHOT!</value>
+    <comment>getroffen message</comment>
+  </data>
+  <data name="Plugin_Tourette_Messages" xml:space="preserve">
+    <value>ARSCHFOTZE;WOHHJA HURENSOHN;STRICHER;FRAU FICKERIN;FOTZENKUCHEN;HALTDIEFRESSE;HURRENSON;FOTZENARSCH;BLÖDICH FICK DICH INNE;AUS UNSERER WERBUNG;Ü-Ü-Ü-ÜBERFALL;YAHOOO;NUTTENSTRICHER;FRAU HURENSOHN FICKER;FRIDI ARSCHMETT;H-HEIL HITLER DU NUTTE;AHUUU ARSCHLOCH;PENISFLEISCH IN DEINEN ARSCH;RAINER WINKLER;ARSCHHURRENSON;WALGESICHT;HAST'N ARSCHLOCH UND DUMM ZU SEIN DU HÄSSLICHES STÜCK;IHR DUMMEN KELLERKINDER UND NICHTSFICKER OHNE STROM!;ANTIPAZI-ARSCHMETT;DRECKSAU;PISSDICHALDE;Was der dicke Thomas wohl da sagte!;HOMOFÜRST;ICH FICK DICH IN ARSCH DU SCHWEIN;DEI MUDDER DU HURRENSON;da geht mir die Muni aus, ICH KOTZ GLEICH!!!!!1;KLEENE FOTZEE;Äpfel, die richtig gut schmecken ... BRÜÜÜÜÜÜÜÜÜMMM;OSMO HAT ALLES WAS ER BRAUCHT;PISSE AUS MEINEM ARSCH;GEILE KINDERMÖSEN;DANKE MERKEL;NEGERPENE;WAS DENN LOS HIER LOIDE?!;Wir schaffen das!;MERKELFREUND;ORIGINALE NICHTSKÖNNER;BANDWURM;Kraaanplätze müssen verdichtet sein!;BUSFAHRER;AHUUUUU MEDDL!;TRAUT EUCH!!1;KOMMT ZU MIR, LEGT EUCH MIT MIR AN;DURCHFALL;NUR WEIL ICH DICK BIN!;ALTSCHAUERBERG 8 IN 91448 EMSKIRCHEN;DARUM SIND DIE AUCH NICHT IN DER EU!;ZIGEUNERPRIESTER;JETZT HABT IHR RICHTIG SCHEISSE AM ARSCH;BOMBE NEIGSCHMEISST!;WER HAT AM MEISTEN HIKMA IN DIESER UMMA?;FREIMAURERJUDENSPIRITISTEN;ISRAEL MOSSAD;DEUTSCHLAND WIEDER ACKERLAND;HAAAALT STOP! JETZT REDE ICH;13 STÄMME ISRAELS!!!!!!;UND ES WIRD SICH HIER NICHTS ÄNDERN, EGAL OB DU HIER BIST UND NICHT;BEGREIFT DAT ENDLICH;POLIZEI DEUTSCHLAND!;JESPRÜHT;KINDERVERGEWALTIGER!!!!!1;ES IST DEUTSCHLAND HIER;MENSCHENOPFERPYRAMIEDEN;LÜGENPRESSE;JUDEN DRECKSSÄCKE;NETANJAHU;NEETANJAAAHUUUU;DIE WAFFE GEHT IN DAS BLUT REIN UNS SPRENGT DIE DEMONSTRANTEN;DIE PRESSE LÜÜHHÜÜGT;WENN ICH WAS ANKÜNDIGE HEISST DAS NET DAS DAS AUCH SO KOMMT;IHR DOOFEN DEUTSCH;DIE DRANGSALIERE fug;POLIZEI DEUTSCHLAND;KAKSOISPISTE DEE DEE DEE;KOHLIO PISST IN DEINEN MUND;JUUUUUUUUUUUUUUUUUUUUUUUDEN;JULIANE IST HÜBSCH;DANN WERDET IHR ALS SCHWEIN GEBOREN WERDEN UND ALS SCHLACHTVIEH ENDEN;METTLER SIND WESENTLICH STÄRKER ALS BILLIGE KLEINE KAGGNADSIS;"Berndo Zitate einfügen" ich hab alle vergessen;ICH ZAHLE FÜR DIESE SCHEIßE NICHT!;GEZ IST GELDVERSCHWENDUNG;KACKWURSTDÄMONEN;ICH MACH LAUERSTEIN FERTIG!;ELEKTROJUDE;ALLAHU AKBAR;ADOLF HITLER;FICK DICH LAUERSTEIN!;MEDDL LOIDE;FEMEN DAS ARSCHLOCH VOLLWIXEN!;FREIMAURER ISRAEL!;HaaalllooooOOoooo~~~~  &lt;3 &lt;3;BAZINGAAAAAAAA;ZMBABWE :DDDD xD;PISSE AUS SEINEM ARSCH AUF DEIN FETTES JUDENGESICHT;WENN ICH DAS SEH WERD ICH ECHT SAUER;BROT KANN SCHEIßEN WAS KÖNNT IHR;POLACKENLÜMMEL;KOMM DOCH HER DU FEIGE SAU;DU LÜGST DU POLACKE!;ICH FICK DICH IN ARSCH UND ICH WERD DIR DIE NEGER HOLEN;TÜRKEN RAUS!;HALLO? HALLO HERR SANTOS?;ICH HACK DIR DIE EIER AB UND MACH EIERSALAT DRAUS;HIER IST WIEDER KING ARSCHFICK;HÖMMA DAT IS SCHALKE HIER;DER TÜRKE FICKT SEINE ALTE NUR WENN SIE RASIERT HAT IHRE SPALTE;DER TÜRKE FICK ALLAH ZUM TROTZE AUCH MAL NE UNRASIERTE FOTZE;Jehova ist Kinderaugen Ausstecher lD Chip Gott.;Ich Bitte darum all-e (weltall) Christen vor ihren 2 Tyrannen Göttern zu Warnen, die gehören zu Bonzen Rootchilds Israel.;Bibel heißt Thora, Spirituelle Thore öffnen, Lest mal was über d. Größten Satan, als d. Bibel CODE (KOTE) Gott Ismael Rootchild (jeder STA Kripo Kinder Porn Vergewaltiger ist);Ich BITTE um Hilfe u. SovORTIGE Auslieferung meiner Staat Tyrannen, Bocksture Höchste Feiglinge SEK, Mossad usw (1Samuel 17:38).;Die Wahrheit wird euch FREI machen !!! Jede Lüge nur Ver-Sklavt, warum jemand Lügt sollte der Leser selbst herausfinden. Wobei Halbwahrheiten die größten Lügen über-HAUPT sind, auch gibt;Stephan Gerner macht in seinem Keller den Donnerfurzanalpropeller;oh herr dir zu ehren will ich nur den nacken mehren;WO IST KAZOOIE;WESTERWELLE;NUDELSUPPENBASTARD;ES IST DEUTSCHLAND HIER!;WEHRMACHT DENN SOWAS!;la illaha il allah, der Jihad ist wieder da /is;ACHI DEINE TOCHTER!!!!!!;WAS PASSIERT JETZT;PASSIERT DA ENDLICH WAS;NICHT SO TIEF RÜDIGER!;ÜÜÜÜÜBERFALL!!!!!!!!!;WIR KÖNNEN NICHT IN DEN WALD GEHEN UND DA BLOCKHÜTTEN BAUEN WO DAWAH DRAUF STEHT;WIR MÜSSEN DIE DAWAH AUF DIE STRAßE BRINGEN;WIR MÜSSEN DIE DAHWA IN JEDES HAUS BRINGEN;HEIL TRUMPF! HEIL UNSER VOLK!;CAUSE YOU WOULD BE IN JAIL /bjhillary</value>
+    <comment>Nachrichten für Tourette</comment>
+  </data>
+  <data name="Plugin_Werbung_Images" xml:space="preserve">
+    <value>https://i.imgur.com/6suMRac.jpg;https://i.imgur.com/DOYlt8X.png;https://i.imgur.com/kzM53KX.gif;https://i.imgur.com/61Zd9Ux.gif;https://i.imgur.com/raXkVLo.gif;https://i.imgur.com/MhFfbeA.gif;https://i.imgur.com/TaaB6B8.gif;https://i.imgur.com/eHDbVIY.gif;https://i.imgur.com/tdMwLql.gif;https://i.imgur.com/ZjnaBDR.gif;https://i.imgur.com/MDu2cQW.jpg;https://i.imgur.com/0SamAWp.gif;https://i.imgur.com/di0f6TD.gif;https://i.imgur.com/fZtPgiZ.gif;https://i.imgur.com/Wesha0X.gif;https://i.imgur.com/1dRzBTB.gif;https://i.imgur.com/YZSkXgi.gif;https://i.imgur.com/E40kCZT.gif;</value>
+    <comment>Werbung Image Urls mit https</comment>
+  </data>
+</root>

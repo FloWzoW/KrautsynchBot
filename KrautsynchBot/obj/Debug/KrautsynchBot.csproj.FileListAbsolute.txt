@@ -1,0 +1,16 @@
+C:\Users\Flo\documents\visual studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Debug\KrautsynchBot.exe.config
+C:\Users\Flo\documents\visual studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Debug\KrautsynchBot.exe
+C:\Users\Flo\documents\visual studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Debug\KrautsynchBot.pdb
+C:\Users\Flo\documents\visual studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Debug\KrautsynchBot.Form1.resources
+C:\Users\Flo\documents\visual studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Debug\KrautsynchBot.Properties.Resources.resources
+C:\Users\Flo\documents\visual studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Debug\KrautsynchBot.csproj.GenerateResource.Cache
+C:\Users\Flo\documents\visual studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Debug\KrautsynchBot.exe
+C:\Users\Flo\documents\visual studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Debug\KrautsynchBot.pdb
+C:\Users\Flo\documents\visual studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Debug\KrautsynchBot.Config.resources
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Debug\EntityFramework.dll
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Debug\EntityFramework.xml
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Debug\KrautsynchBot.csprojResolveAssemblyReference.cache

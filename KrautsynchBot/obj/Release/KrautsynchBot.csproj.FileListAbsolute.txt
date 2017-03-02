@@ -1,0 +1,15 @@
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Release\KrautsynchBot.Config.resources
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Release\KrautsynchBot.Form1.resources
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Release\KrautsynchBot.Properties.Resources.resources
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Release\KrautsynchBot.csproj.GenerateResource.Cache
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Release\KrautsynchBot.exe.config
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Release\KrautsynchBot.exe
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Release\KrautsynchBot.pdb
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Release\EntityFramework.dll
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Release\Newtonsoft.Json.dll
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Release\EntityFramework.xml
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\bin\Release\Newtonsoft.Json.xml
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Release\KrautsynchBot.exe
+C:\Users\Flo\Documents\Visual Studio 2015\Projects\SocketIO_Client\KrautsynchBot\obj\Release\KrautsynchBot.pdb
