@@ -19,13 +19,6 @@ namespace KrautsynchBot
         //https://cytu.be/r/BerndboyBot_Testchan
         //http://instasync.com/r/krautsynch
 
-        //BerndboyBot
-        //4gpvbatx87
-        //berndboybot @arcor.de
-
-        //KrautsynchBot
-        //reg1iurhi4
-        //berndboy2@arcor.de
 
         clsChatWrapper chatwrapper;
         clsCommandHandler commander;
